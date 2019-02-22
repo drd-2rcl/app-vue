@@ -1,28 +1,7 @@
 <template>
-  <div id="app">
-    <p>Server Status: {{ status }} </p>
-  </div>
+    <app-server-status></app-server-status>
 </template>
  
-<script>
+<script></script>
 
-export default {
-  name: 'app',
-  data() {
-    return {
-      status: 'Critical'
-    }
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
